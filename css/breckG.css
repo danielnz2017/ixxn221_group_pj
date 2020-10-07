@@ -493,3 +493,21 @@ text-transform: capitalize;
 color: #000000;
 
 }
+.RgTitle1{
+  position: absolute;
+left: 30.28%;
+right: 52.64%;
+top: 57.73%;
+bottom: 40.42%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
