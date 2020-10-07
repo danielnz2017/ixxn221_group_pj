@@ -19,6 +19,19 @@
   overflow-x: hidden;
   
   }
+
+
+h3{
+  font-family: Montserrat;
+}
+
+h2{
+  font-family: Montserrat;
+}
+
+h1{
+  font-family: Montserrat;
+}
   
 
   a { color:black; text-decoration: none;} 
@@ -40,7 +53,7 @@
   .topnav a {
     float: right;
     display: block;
-    
+    font-family: Montserrat;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -66,7 +79,7 @@
     height: 100%;
     width: 300px;
     position: fixed;
-    
+    font-family: Montserrat;
     top: 0;
     left: 0;
     background-color: #ebeceb;
@@ -83,6 +96,7 @@
     position: relative;
     left: 20%;
     top: 10%;
+    font-family: Montserrat;
   }
   
   .sidenav a:hover {
@@ -131,7 +145,6 @@ width: 110px;
 height: 16px;
 left: 645px;
 top: 66px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -141,7 +154,6 @@ display: flex;
 align-items: center;
 letter-spacing: 0.05em;
 text-transform: capitalize;
-
 color: #000000;
 
 }
@@ -151,7 +163,6 @@ width: 193px;
 height: 17px;
 left: 392px;
 top: 66px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -171,7 +182,6 @@ width: 124px;
 height: 16px;
 left: 845px;
 top: 66px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -191,7 +201,6 @@ width: 124px;
 height: 16px;
 left: 1061px;
 top: 66px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -211,7 +220,6 @@ color: #000000;
   height: 16px;
   left: 1269px;
   top: 65px;
-  
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -231,7 +239,6 @@ width: 332px;
 height: 42px;
 left: 738px;
 top: 191px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -248,7 +255,6 @@ width: 397px;
 height: 238px;
 left: 936px;
 top: 367px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
@@ -264,7 +270,6 @@ width: 110px;
 height: 16px;
 left: 489px;
 top: 134px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -284,7 +289,6 @@ width: 67px;
 height: 16px;
 left: 668px;
 top: 134px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -304,7 +308,6 @@ width: 75px;
 height: 16px;
 left: 804px;
 top: 134px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -324,7 +327,6 @@ color: #000000;
   height: 16px;
   left: 948px;
   top: 133px;
-  
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -344,7 +346,6 @@ width: 87px;
 height: 16px;
 left: 1104px;
 top: 134px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -364,7 +365,6 @@ width: 57px;
 height: 16px;
 left: 1260px;
 top: 135px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -384,7 +384,6 @@ width: 110px;
 height: 16px;
 left: 489px;
 top: 134px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -404,7 +403,6 @@ width: 67px;
 height: 16px;
 left: 668px;
 top: 134px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -424,7 +422,6 @@ width: 75px;
 height: 16px;
 left: 804px;
 top: 134px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -484,7 +481,6 @@ width: 57px;
 height: 16px;
 left: 1260px;
 top: 135px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -497,4 +493,12 @@ text-transform: capitalize;
 
 color: #000000;
 
+}
+
+p{
+  font-family: Montserrat;
+}
+
+a{
+  font-family: Montserrat;
 }
