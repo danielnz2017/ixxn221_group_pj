@@ -8,7 +8,6 @@
   
   }
   
-  
   html, body{
       
   width: 100%;
@@ -19,11 +18,27 @@
   overflow-x: hidden;
   
   }
+
+  p{
+    font-family: Montserrat;
+  }
   
-
-
+  a{
+    font-family: Montserrat;
+  }
   
-
+  h3{
+    font-family: Montserrat;
+  }
+  
+  h2{
+    font-family: Montserrat;
+  }
+  
+  h1{
+    font-family: Montserrat;
+  }
+    
   .topnav {
     overflow: hidden;
     background-color: #fdb7b1;
@@ -35,7 +50,7 @@
   .topnav a {
     float: right;
     display: block;
-    
+    font-family: Montserrat;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -61,7 +76,6 @@
     height: 100%;
     width: 300px;
     position: fixed;
-    
     top: 0;
     left: 0;
     background-color: #ebeceb;
@@ -73,6 +87,7 @@
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
+    font-family: Montserrat;
     color: #000000;
     display: block;
     position: relative;
@@ -137,7 +152,6 @@ background: #FFFFFF;
     right: 8.66%;
     top: 1.33%;
     bottom: 95.94%;
-    
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -161,13 +175,13 @@ height: 1207px;
 left: 365px;
 top: 71px;
 }
+
 .quote{
   position: absolute;
 width: 397px;
 height: 238px;
 left: 606px;
 top: 166px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
@@ -183,13 +197,11 @@ left: 6.61%;
 right: 50%;
 top: 31.24%;
 bottom: -41.01%;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 22px;
-
 color: #000000;
 
 }
@@ -199,7 +211,6 @@ width: 175px;
 height: 9px;
 left: 71px;
 top: 356px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -209,16 +220,15 @@ display: flex;
 align-items: center;
 letter-spacing: 0.05em;
 text-transform: capitalize;
-
 color: #000000;
 }
+
 .sub-titleB{
   position: absolute;
 width: 311px;
 height: 22px;
 left: 606px;
 top: 439px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -228,7 +238,6 @@ display: flex;
 align-items: center;
 letter-spacing: 0.05em;
 text-transform: capitalize;
-
 color: #000000;
 
 }
@@ -238,14 +247,12 @@ width: 394px;
 height: 613px;
 left: 606px;
 top: 483px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 22px;
 letter-spacing: 0.05em;
-
 color: #000000;
 
 }
@@ -255,7 +262,6 @@ width: 38px;
 height: 23px;
 left: 606px;
 top: 71px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -264,7 +270,6 @@ line-height: 23px;
 display: flex;
 align-items: center;
 text-transform: capitalize;
-
 color: #CD4747;
 
 }
@@ -274,7 +279,6 @@ width: 28px;
 height: 23px;
 left: 647px;
 top: 71px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -285,7 +289,6 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.05em;
 text-transform: uppercase;
-
 color: #48931B;
 
 }
@@ -295,7 +298,6 @@ left: 56.42%;
 right: 7.17%;
 top: 8.2%;
 bottom: 89.89%;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
@@ -305,7 +307,6 @@ display: flex;
 align-items: center;
 letter-spacing: 0.05em;
 text-transform: capitalize;
-
 color: #000000;
 
 }
@@ -315,7 +316,6 @@ left: 56.42%;
 right: 34.54%;
 top: 11.43%;
 bottom: 87.74%;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
@@ -324,7 +324,6 @@ line-height: 22px;
 display: flex;
 align-items: center;
 letter-spacing: 0.05em;
-
 color: #000000;
 
 }

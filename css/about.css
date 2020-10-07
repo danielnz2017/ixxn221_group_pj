@@ -20,10 +20,26 @@
   
   }
   
-
-
+  p{
+    font-family: Montserrat;
+  }
   
-
+  a{
+    font-family: Montserrat;
+  }
+  
+  h3{
+    font-family: Montserrat;
+  }
+  
+  h2{
+    font-family: Montserrat;
+  }
+  
+  h1{
+    font-family: Montserrat;
+  }
+    
   .topnav {
     overflow: hidden;
     background-color: #fdb7b1;
@@ -35,7 +51,7 @@
   .topnav a {
     float: right;
     display: block;
-    
+    font-family: Montserrat;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -61,7 +77,6 @@
     height: 100%;
     width: 300px;
     position: fixed;
-    
     top: 0;
     left: 0;
     background-color: #ebeceb;
@@ -74,6 +89,7 @@
     text-decoration: none;
     font-size: 25px;
     color: #000000;
+    font-family: Montserrat;
     display: block;
     position: relative;
     left: 20%;
@@ -84,12 +100,7 @@
     color: #fdb7b1;
   }
 
-
-
-
   .logo1{
-
-
     width: 150px;
     height: 100px;
     position: relative;
@@ -99,8 +110,6 @@
 
 
   .logo2{
-
-
     width: 200px;
     height: 38px;
     position: relative;
@@ -110,8 +119,6 @@
 
 
   .sclog1 {
-
-
     width: 30px;
     height: 30px;
     position: relative;
@@ -119,6 +126,7 @@
     top: 95px;
 
   }
+
 /* added */
 .main-text{
   position: absolute;
@@ -134,15 +142,12 @@
   height: 44px;
   left: 44px;
   top: 76px;
-  
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
   /* identical to box height */
-  
-  
   color: #000000;
   
 }
@@ -152,15 +157,12 @@
   height: 538px;
   left: 44px;
   top: 155px;
-
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-
   color: #000000;
-
 }
 
 .pers1txt{
@@ -169,7 +171,6 @@ width: 608px;
 height: 168px;
 left: 704px;
 top: 868px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -185,7 +186,6 @@ width: 612px;
 height: 124px;
 left: 704px;
 top: 1181px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -201,7 +201,6 @@ width: 612px;
 height: 124px;
 left: 704px;
 top: 1486px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -218,13 +217,11 @@ width: 612px;
 height: 124px;
 left: 704px;
 top: 1786px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 29px;
-
 color: #000000
 
 }
