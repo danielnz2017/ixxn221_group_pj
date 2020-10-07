@@ -17,8 +17,13 @@
 
 	<div class="topnav" id="myTopnav">
 		<img src="img/logo-2.png" class="logo2" />
-		<a href="#">Sign in</a>
-		<a href="#">Subscribe</a>
+		<img src="img/logo-1.png" class="logo1x" />
+
+
+		<a id="w1" href="#">Sign in</a>
+		<a id="w2" href="#">Subscribe</a>
+		<span class="bt-side-nav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
 
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<i class="fa fa-bars"></i>
@@ -26,13 +31,49 @@
 	</div>
 
 
-	<div class="sidenav">
+
+	<img src="img/logo-2.png" class="logo-md" />
+	<hr class="t-line">
+
+
+
+
+	<div class="sidenav-1">
+
+
 		<img src="img/logo-1.png" class="logo1" />
+
+
 		<a href="#about">Home</a>
 		<a href="#services">About</a>
 		<a href="#clients">Gallary</a>
 		<a href="#contact">Favourites</a></br>
-		<a href="#contact">Social Media:</a>
+
+		<a id="social-m" href="#contact">Social Media:</a>
+		<img src="img/fb.png" class="sclog1" />
+		<img src="img/tt.png" class="sclog1" />
+		<img src="img/ps.png" class="sclog1" />
+		<img src="img/ins.png" class="sclog1" />
+
+
+	</div>
+
+
+
+
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+		<img src="img/logo-1.png" class="logo1" />
+
+
+		<a href="#about">Home</a>
+		<a href="#services">About</a>
+		<a href="#clients">Gallary</a>
+		<a href="#contact">Favourites</a></br>
+		<a id="social-m" href="#contact">Social Media:</a>
+
 		<img src="img/fb.png" class="sclog1" />
 		<img src="img/tt.png" class="sclog1" />
 		<img src="img/ps.png" class="sclog1" />
@@ -68,7 +109,7 @@
 
 		<div class="grid-container">
 
-			<div class="grid-item">Recipe Keys:</div>
+			<div id="item-caty" class="grid-item">Recipe Keys:</div>
 			<div class="grid-item">DF = Diary Free</div>
 			<div class="grid-item">GF = Gluten Free</div>
 			<div class="grid-item">VT = Vegeterian</div>
@@ -81,17 +122,22 @@
 		</div>
 
 
+		<div class="sub-titleM">
+			<h1>Featured recipe</h1>
+			<h5>Whole Meal Pancakes DF VT</h5>
+		</div>
 
 		<div class="pt-mid">
 			<h2 class="sub-ti2">Wheat Pancakes</h3>
 
-			<div class="pic">
+				
+				<div class="pic">
 					<img src="img/bp2.jpg" class="pic-m" />
 
-					<div class="middle">
+					<div id="hover-hi" class="middle">
 						<img src="img/star.png" class="pic-m2" />
 					</div>
-			</div>
+				</div>
 
 		</div>
 
@@ -103,112 +149,185 @@
 
 
 
+
+
+
+
 		<section class="box">
 			<div class="g-row">
-				
-				
-				<div class="g1">
-					<h3>Grilled Chicken</h3>
-					<img class="gr-pic" src="img/d-1.jpg" alt="image">
 
-					<div class="middle2">
-						<img src="img/star.png" class="pic-m3" />
+
+				<div class="g1">
+
+					<div class="hide-in">
+						<h3>Grilled Chicken</h3><br />
+					</div>
+
+					<div class="card-v">
+						<div class="sub-mobi">
+							<h3 id="subM">Chicken</h3>
+							<p>An easy dinner to make fast</p>
+						</div>
+						
+						<img class="gr-pic" src="img/d-1.jpg" alt="image" >
+						<img class="gr-pic1" src="img/d-1.jpg" alt="image" style="width:200px">
+
+						<div id="hover-hi" class="middle2">
+							<img src="img/star.png" class="pic-m3" />
+						</div>
+
+						<div class="side-r">DF GF</div>
 					</div>
 				</div>
 
 
-				
-				<div class="g1">
-					<h3>Pork Soup</h3>
-					<img class="gr-pic" src="img/d-1.jpg" alt="image">
 
-					<div class="middle3">
-						<img src="img/star.png" class="pic-m3" />
+				<div class="g1">
+
+					<div class="hide-in">
+						<h3>Pork Soup</h3><br />
+					</div>
+
+					<div class="card-v">
+						<div class="sub-mobi1">
+							<h3 id="subM">Vegetable Soup</h3>
+							<p>This soup is good for any time of day and full of stuff that’s good for you!</p>
+						</div>
+
+
+						<img class="gr-pic" src="img/d-1.jpg" alt="image" >
+						<img class="gr-pic2" src="img/d-1.jpg" alt="image" style="width:200px" >
+
+						<div id="hover-hi" class="middle3">
+							<img src="img/star.png" class="pic-m3" />
+						</div>
+
+						<div class="side-r1">DF GF VT VG</div>
 					</div>
 				</div>
 
 
-				
-				<div class="g1">
-					<h3>Home Style Ramen</h3>
-					<img class="gr-pic" src="img/d-1.jpg" alt="image">
 
-					<div class="middle4">
-						<img src="img/star.png" class="pic-m3" />
+				<div class="g1">
+
+					<div class="hide-in">
+						<h3>Home Style Ramen</h3><br />
+					</div>
+
+					<div class="card-v">
+						<div class="sub-mobi2">
+							<h3 id="subM">Pork Soup</h3>
+							<p>This more savory option is quick and simple</p>
+						</div>
+
+
+						<img class="gr-pic" src="img/d-1.jpg" alt="image">
+						<img class="gr-pic3" src="img/d-1.jpg" alt="image" style="width:200px" >
+
+						<div id="hover-hi" class="middle4">
+							<img src="img/star.png" class="pic-m3" />
+						</div>
+
+						<div class="side-r">DF GF</div>
 					</div>
 				</div>
 
 
-				
-				<div class="g1">
-					<h3>Buffalo Wings</h3>
-					<img class="gr-pic" src="img/d-1.jpg" alt="image">
 
-					<div class="middle5">
-						<img src="img/star.png" class="pic-m3" />
+				<div class="g1">
+					<div class="hide-in">
+						<h3>Buffalo Wings</h3><br />
+					</div>
+
+					<div class="card-v">
+						<div class="sub-mobi3">
+							<h3 id="subM">Chicken and
+								Vegetables</h3>
+							<p>This more savory option is quick and simple</p>
+						</div>
+
+
+						<img class="gr-pic" src="img/d-1.jpg" alt="image">
+						<img class="gr-pic4" src="img/d-1.jpg" alt="image" style="width:200px" >
+
+						<div id="hover-hi" class="middle5">
+							<img src="img/star.png" class="pic-m3" />
+						</div>
+
+						<div class="side-r">DF GF VT</div>
 					</div>
 				</div>
 
 
-				
-				<div class="g1">
-					<h3>Vegeterian Platter</h3>
+
+				<div id="hide-gr" class="g1">
+					<h3>Vegeterian Platter</h3><br />
 					<img class="gr-pic" src="img/d-1.jpg" alt="image">
 
 					<div class="middle6">
 						<img src="img/star.png" class="pic-m3" />
 					</div>
+
+					<div class="side-r">VG</div>
 				</div>
 
 
-				
-				<div class="g1">
-					<h3>Garlic Hummus</h3>
+
+				<div id="hide-gr" class="g1">
+					<h3>Garlic Hummus</h3><br />
 					<img class="gr-pic" src="img/d-1.jpg" alt="image">
 
 					<div class="middle7">
 						<img src="img/star.png" class="pic-m3" />
 					</div>
+
+					<div class="side-r">DF GF</div>
 				</div>
 
 
-				
-				<div class="g1">
-					<h3>Grilled Chicken</h3>
+
+				<div id="hide-gr" class="g1">
+					<h3>Grilled Chicken</h3><br />
 					<img class="gr-pic" src="img/d-1.jpg" alt="image">
 
 					<div class="middle8">
 						<img src="img/star.png" class="pic-m3" />
 					</div>
+
+					<div class="side-r">DF GF</div>
 				</div>
 
 
-				
-				<div class="g1">
-					<h3>Pork Soup</h3>
+
+				<div id="hide-gr" class="g1">
+					<h3>Pork Soup</h3><br />
 					<img class="gr-pic" src="img/d-1.jpg" alt="image">
 
 					<div class="middle9">
 						<img src="img/star.png" class="pic-m3" />
 					</div>
+
+					<div class="side-r">DF GF</div>
 				</div>
 
 
-				
-				<div class="g1">
-					<h3>Home Style Ramen</h3>
+
+				<div id="hide-gr" class="g1">
+					<h3>Home Style Ramen</h3><br />
 					<img class="gr-pic" src="img/d-1.jpg" alt="image">
 
 					<div class="middle10">
 						<img src="img/star.png" class="pic-m3" />
 					</div>
-				</div>
-	
 
-	
+					<div class="side-r">DF GF</div>
+				</div>
+
+
+
 			</div>
 		</section>
-		
+
 		<hr class="b-line">
 
 		<div class="b-end">
