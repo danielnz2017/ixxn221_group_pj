@@ -264,6 +264,14 @@ line-height: 22px;
 color: #000000;
 
 }
+
+.bCat:hover {
+  border-bottom: 3px solid #CD4747;
+}
+
+.bCat:active {
+  border-bottom: 3px solid #CD4747;
+}
 .bCat{
   position: absolute;
 width: 110px;
@@ -272,7 +280,7 @@ left: 489px;
 top: 134px;
 font-family: Montserrat;
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 19.0073px;
 line-height: 23px;
 display: flex;
@@ -282,6 +290,14 @@ text-transform: capitalize;
 
 color: #000000;
 
+}
+
+.lCat:hover {
+  border-bottom: 3px solid #CD4747;
+}
+
+.lCat.active {
+  border-bottom: 3px solid #CD4747;
 }
 .lCat{
   position: absolute;
@@ -302,6 +318,13 @@ text-transform: capitalize;
 color: #000000;
 
 }
+.diCat:hover {
+  border-bottom: 3px solid #CD4747;
+}
+
+.diCat.active {
+  border-bottom: 3px solid #CD4747;
+}
 .diCat{
   position: absolute;
 width: 75px;
@@ -320,6 +343,13 @@ text-transform: capitalize;
 
 color: #000000;
 
+}
+.deCat:hover {
+  border-bottom: 3px solid #CD4747;
+}
+
+.deCat.active {
+  border-bottom: 3px solid #CD4747;
 }
 .deCat{
   position: absolute;
@@ -340,6 +370,13 @@ color: #000000;
   color: #000000;
   
 }
+.snCat:hover {
+  border-bottom: 3px solid #CD4747;
+}
+
+.snCat.active {
+  border-bottom: 3px solid #CD4747;
+}
 .snCat{
   position: absolute;
 width: 87px;
@@ -358,6 +395,13 @@ text-transform: capitalize;
 
 color: #000000;
 
+}
+.siCat:hover {
+  border-bottom: 3px solid #CD4747;
+}
+
+.siCat.active {
+  border-bottom: 3px solid #CD4747;
 }
 .siCat{
   position: absolute;
@@ -378,6 +422,14 @@ text-transform: capitalize;
 color: #000000;
 
 }
+.bCat2:hover {
+  border-bottom: 3px solid #CD4747;
+}
+
+.bCat2.active {
+  border-bottom: 3px solid #CD4747;
+}
+
 .bCat2{
   position: absolute;
 width: 110px;
