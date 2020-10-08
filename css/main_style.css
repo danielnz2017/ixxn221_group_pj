@@ -1,0 +1,330 @@
+*, *::after, *::before {
+
+  box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box; 
+  font-family: Montserrat;
+
+
+}
+
+
+html, body{
+    
+width: 100%;
+height: 100%;
+    
+margin: 0px; 
+padding: 0px;
+overflow-x: hidden;
+
+}
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #fdb7b1;
+  position: relative;
+  z-index: 1;
+  
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  
+}
+
+.topnav a:hover {
+  color: #ffffff;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  
+  top: 0;
+  left: 0;
+  background-color: #ebeceb;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  position: relative;
+  left: 20%;
+  top: 10%;
+}
+
+.sidenav a:hover {
+  color: #fdb7b1;
+}
+
+
+
+
+.logo1{
+
+
+  width: 150px;
+  height: 100px;
+  position: relative;
+  left: 20%;
+  top: 55px;
+}
+
+
+.logo2{
+
+
+  width: 200px;
+  height: 38px;
+  position: relative;
+  top: 5px;
+  left: 1%;
+}
+
+
+.sclog1 {
+
+
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  top: 95px;
+
+}
+
+
+.pic-a{
+position: absolute;
+width: 462px;
+height: 293px;
+left: 85px;
+top: 22px;
+
+background: #FFFFFF;
+}
+
+.r-title {
+  position: absolute;
+  left: 56.33%;
+  right: 8.66%;
+  top: 1.33%;
+  bottom: 95.94%;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 109.9%;
+  /* identical to box height, or 33px */
+  
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+
+}
+
+.recipeM{
+position: absolute;
+width: 1074px;
+height: 1207px;
+left: 365px;
+top: 71px;
+}
+.quote{
+position: absolute;
+width: 397px;
+height: 238px;
+left: 606px;
+top: 166px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+}
+.mainT{
+position: absolute;
+left: 6.61%;
+right: 50%;
+top: 31.24%;
+bottom: -41.01%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+}
+.sub-titleA{
+position: absolute;
+width: 175px;
+height: 9px;
+left: 71px;
+top: 356px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+}
+.sub-titleB{
+position: absolute;
+width: 311px;
+height: 22px;
+left: 606px;
+top: 439px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.ing-text{
+position: absolute;
+width: 394px;
+height: 613px;
+left: 606px;
+top: 483px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+.df{
+position: absolute;
+width: 38px;
+height: 23px;
+left: 606px;
+top: 71px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #CD4747;
+
+}
+.vt{
+position: absolute;
+width: 28px;
+height: 23px;
+left: 647px;
+top: 71px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #48931B;
+
+}
+.prepT{
+position: absolute;
+left: 56.42%;
+right: 7.17%;
+top: 8.2%;
+bottom: 89.89%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.servs{
+position: absolute;
+left: 56.42%;
+right: 34.54%;
+top: 11.43%;
+bottom: 87.74%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
