@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     box-sizing: border-box; 
-    font-family: 'PT Serif', serif;
+    /*font-family: 'PT Serif', serif;*/
   
   
   }
@@ -21,7 +21,9 @@
   }
   
 
-
+.p{
+  font-family: Montserrat;
+}
   
 
   .topnav {
@@ -36,7 +38,7 @@
   .topnav a {
     float: right;
     display: block;
-    
+    font-family: Montserrat;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -62,7 +64,7 @@
     height: 100%;
     width: 300px;
     position: fixed;
-    
+    font-family: Montserrat;
     top: 0;
     left: 0;
     background-color: #ebeceb;
@@ -71,6 +73,7 @@
   }
   
   .sidenav a {
+    font-family: Montserrat;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -165,14 +168,14 @@
 
 .head1{
 
-
+  font-family: Montserrat;
     font-size: 50px;
 }
 
 
 .pra-1{
 
-
+  font-family: Montserrat;
     font-size: 20px;
 }
 
@@ -199,17 +202,21 @@
     padding: 1px;
   }
   .grid-item {
-   
+    font-family: Montserrat;
     
     padding: 10px;
     font-size: 20px;
     text-align: center;
   }
 
-
+  .h3{
+   font-family: Montserrat;
+  }
+  .h1{
+    font-family: Montserrat;
+   }
   .sub-title {
-
-
+    font-family: Montserrat;
     /* background-color: brown; */
     position: relative;
     top: 160px;
@@ -234,7 +241,7 @@
 
 
 .sub-ti2{
-   
+  font-family: Montserrat;
     margin-left:110px;
 }
 
@@ -272,6 +279,7 @@
 
 
   .middle {
+    
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -297,7 +305,11 @@
 
 
 
-
+.g1{
+  
+    font-family: Montserrat;
+   
+}
 
 
 
@@ -530,7 +542,7 @@
 
 
   .sub-title2{
-
+    font-family: Montserrat;
     /* background-color: crimson; */
     position: relative;
     top: 550px;
@@ -540,7 +552,7 @@
   }
 
   .heading-2{
-
+    font-family: Montserrat;
     margin-left: 110px;
   }
 
@@ -630,7 +642,7 @@
 }
 
 .button {
-  
+  font-family: Montserrat;
   border: 5px solid rgb(78, 78, 78);
   border-radius: 5%;
   background-color: white;
