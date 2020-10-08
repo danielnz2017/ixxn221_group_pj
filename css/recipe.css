@@ -21,9 +21,6 @@ overflow-x: hidden;
 }
 
 
-
-
-
 .topnav {
   overflow: hidden;
   background-color: #fdb7b1;
@@ -154,7 +151,7 @@ background: #FFFFFF;
 
 }
 
-.recipeM{
+.recipe{
 position: absolute;
 width: 1074px;
 height: 1207px;
@@ -177,12 +174,12 @@ line-height: 22px;
 color: #000000;
 
 }
-.mainT{
+.instructions-p{
 position: absolute;
 left: 6.61%;
 right: 50%;
-top: 31.24%;
-bottom: -41.01%;
+top: 32.24%;
+bottom: -44.01%;
 
 font-family: Montserrat;
 font-style: normal;
@@ -193,7 +190,7 @@ line-height: 22px;
 color: #000000;
 
 }
-.sub-titleA{
+.instructions-t{
 position: absolute;
 width: 175px;
 height: 9px;
@@ -212,7 +209,7 @@ text-transform: capitalize;
 
 color: #000000;
 }
-.sub-titleB{
+.ingredients-t{
 position: absolute;
 width: 311px;
 height: 22px;
@@ -232,7 +229,7 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.ing-text{
+.ingredients-p{
 position: absolute;
 width: 394px;
 height: 613px;
@@ -254,7 +251,7 @@ position: absolute;
 width: 38px;
 height: 23px;
 left: 606px;
-top: 71px;
+top: 66px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -273,7 +270,7 @@ position: absolute;
 width: 28px;
 height: 23px;
 left: 647px;
-top: 71px;
+top: 66px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -289,7 +286,7 @@ text-transform: uppercase;
 color: #48931B;
 
 }
-.prepT{
+.preptime{
 position: absolute;
 left: 56.42%;
 right: 7.17%;
@@ -309,7 +306,7 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.servs{
+.serves{
 position: absolute;
 left: 56.42%;
 right: 34.54%;
@@ -328,3 +325,47 @@ letter-spacing: 0.05em;
 color: #000000;
 
 }
+
+.button {
+  
+  border: 5px solid rgb(78, 78, 78);
+  border-radius: 5%;
+  background-color: white;
+  
+  width: 191px;
+  height: 52px;
+  padding: 15x 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 15px;
+  cursor: pointer;
+  position: relative;
+  left: 50px;
+}
+
+.footer{
+
+
+  position: absolute;
+    top: 1250px;
+    width: 82.2%;
+    height: 90px;
+  
+}
+
+.footer-line{
+
+
+  position: absolute;
+  width: 100%;
+margin-left: 65px;
+  top:75px;
+
+}
+
+
+
+
+
