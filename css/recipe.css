@@ -9,363 +9,117 @@
 }
 
 
-html, body{
-    
-width: 100%;
-height: 100%;
-    
-margin: 0px; 
-padding: 0px;
-overflow-x: hidden;
-
-}
-
-
-.topnav {
-  overflow: hidden;
-  background-color: #fdb7b1;
-  position: relative;
-  z-index: 1;
-  
-}
-
-.topnav a {
-  float: right;
-  display: block;
-  
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  color: #000000;
-  font-size: 20px;
-  
-}
-
-.topnav a:hover {
-  color: #ffffff;
-}
-
-
-
-.topnav .icon {
-  display: none;
-}
 
 
 
 
-.sidenav {
-  height: 100%;
-  width: 300px;
-  position: fixed;
-  
-  top: 0;
-  left: 0;
-  background-color: #ebeceb;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #000000;
-  display: block;
-  position: relative;
-  left: 20%;
-  top: 10%;
-}
-
-.sidenav a:hover {
-  color: #fdb7b1;
-}
 
 
 
 
-.logo1{
 
 
-  width: 150px;
-  height: 100px;
-  position: relative;
-  left: 20%;
-  top: 55px;
-}
+
+@media (min-width: 500px){
+
+  .pic-a{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+  }
+
+  .recipe{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
+  .recipe-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+  }
 
 
-.logo2{
 
+  .vt{
+    color: green;
+    float: left;
+    margin: 0.2em 1em 0.2em 0.1em;
+  }
 
-  width: 200px;
-  height: 38px;
-  position: relative;
-  top: 5px;
-  left: 1%;
-}
+  .df{
+    color: red;
+  margin: 0.2em 1em 0.2em 0.5em;
+  }
 
+  .serves{
+    font-weight: 500;
+    margin-bottom: 0.2em;
+  }
 
-.sclog1 {
+  .time{
+    font-weight: 500;
+  }
 
+  .quote{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1EM;
+    margin-bottom: 1EM;
+    width: 90%;
+  }
 
-  width: 30px;
-  height: 30px;
-  position: relative;
-  left: 25%;
-  top: 95px;
+  .ingredients{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
 
-}
-
-
-.pic-a{
-position: absolute;
-width: 462px;
-height: 293px;
-left: 85px;
-top: 22px;
-
-background: #FFFFFF;
-}
-
-.r-title {
-  position: absolute;
-  left: 56.33%;
-  right: 8.66%;
-  top: 1.33%;
-  bottom: 95.94%;
-  
-  font-family: Montserrat;
+  .ingredients-t{
+    margin-bottom: 1em;
+    font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 109.9%;
-  /* identical to box height, or 33px */
-  
+  font-size: 18px;
+  line-height: 29px;
   display: flex;
   align-items: center;
+  letter-spacing: 0.05em;
   text-transform: capitalize;
-  
-  color: #000000;
-  
+  }
 
+  .instructions{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-bottom: 2em;
+  }
+
+  .instructions-t{
+    margin-bottom: 1em;
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  }
+
+  .instructions-subt{
+  font-weight: 600;
+  }
+
+  .button {
+    display: none;
+  }
 }
-
-.recipe{
-position: absolute;
-width: 1074px;
-height: 1207px;
-left: 365px;
-top: 71px;
-}
-.quote{
-position: absolute;
-width: 397px;
-height: 238px;
-left: 606px;
-top: 166px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-
-color: #000000;
-
-}
-.instructions-p{
-position: absolute;
-left: 6.61%;
-right: 50%;
-top: 32.24%;
-bottom: -44.01%;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-
-color: #000000;
-
-}
-.instructions-t{
-position: absolute;
-width: 175px;
-height: 9px;
-left: 71px;
-top: 356px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 29px;
-display: flex;
-align-items: center;
-letter-spacing: 0.05em;
-text-transform: capitalize;
-
-color: #000000;
-}
-.ingredients-t{
-position: absolute;
-width: 311px;
-height: 22px;
-left: 606px;
-top: 439px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 29px;
-display: flex;
-align-items: center;
-letter-spacing: 0.05em;
-text-transform: capitalize;
-
-color: #000000;
-
-}
-.ingredients-p{
-position: absolute;
-width: 394px;
-height: 613px;
-left: 606px;
-top: 483px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-letter-spacing: 0.05em;
-
-color: #000000;
-
-}
-.df{
-position: absolute;
-width: 38px;
-height: 23px;
-left: 606px;
-top: 66px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 19.0073px;
-line-height: 23px;
-display: flex;
-align-items: center;
-text-transform: capitalize;
-
-color: #CD4747;
-
-}
-.vt{
-position: absolute;
-width: 28px;
-height: 23px;
-left: 647px;
-top: 66px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 19.0073px;
-line-height: 23px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.05em;
-text-transform: uppercase;
-
-color: #48931B;
-
-}
-.preptime{
-position: absolute;
-left: 56.42%;
-right: 7.17%;
-top: 8.2%;
-bottom: 89.89%;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-display: flex;
-align-items: center;
-letter-spacing: 0.05em;
-text-transform: capitalize;
-
-color: #000000;
-
-}
-.serves{
-position: absolute;
-left: 56.42%;
-right: 34.54%;
-top: 11.43%;
-bottom: 87.74%;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-display: flex;
-align-items: center;
-letter-spacing: 0.05em;
-
-color: #000000;
-
-}
-
-.button {
-  
-  border: 5px solid rgb(78, 78, 78);
-  border-radius: 5%;
-  background-color: white;
-  
-  width: 191px;
-  height: 52px;
-  padding: 15x 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 15px;
-  cursor: pointer;
-  position: relative;
-  left: 50px;
-}
-
-.footer{
-
-
-  position: absolute;
-    top: 1250px;
-    width: 82.2%;
-    height: 90px;
-  
-}
-
-.footer-line{
-
-
-  position: absolute;
-  width: 100%;
-margin-left: 65px;
-  top:75px;
-
-}
-
-
-
-
-
