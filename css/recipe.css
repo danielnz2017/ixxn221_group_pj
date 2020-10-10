@@ -7,6 +7,168 @@
 
 
 }
+.topnav {
+  overflow: hidden;
+  background-color: #fdb7b1;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  
+}
+
+.topnav a:hover {
+  color: #ffffff;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+
+
+
+.sidenav-1 {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  
+  top: 0;
+  left: 0;
+  background-color: #ebeceb;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav-1 a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  position: relative;
+  left: 20%;
+  top: 10%;
+}
+
+.sidenav-1 a:hover {
+  color: #fdb7b1;
+}
+
+
+
+
+
+
+
+
+.sidenav {
+
+  display: none;
+
+}
+
+.sidenav a {
+
+  display: none;
+
+}
+
+.sidenav a:hover {
+  display: none;
+}
+
+
+.sidenav .closebtn {
+  display: none;
+  
+}
+
+
+
+
+
+
+
+
+.logo1{
+
+
+  width: 150px;
+  height: 100px;
+  position: relative;
+  left: 20%;
+  top: 55px;
+}
+
+
+.logo2{
+
+
+  width: 200px;
+  height: 38px;
+  position: relative;
+  top: 5px;
+  left: 1%;
+}
+
+
+.sclog1 {
+
+
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  top: 95px;
+
+}
+
+
+
+
+
+.left-part{
+
+
+  position: relative;
+  width: 30%;
+  left: 25%;
+  top: 100px;
+  
+  /* background-color: #ff1500; */
+}
+
+
+
+.right-part{
+
+  /* background-color: aqua; */
+  position: relative;
+  width: 28%;
+  height: 60px;
+  left: 63%;
+  top: -565px;
+
+
+
+
+}
 
 
 
