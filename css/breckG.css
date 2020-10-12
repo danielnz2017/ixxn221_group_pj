@@ -224,7 +224,7 @@ color: #000000;
   position: absolute;
 width: 332px;
 height: 42px;
-left: 738px;
+left: 50%;
 top: 191px;
 
 font-family: Montserrat;
@@ -239,9 +239,9 @@ color: #000000;
 }
 .main-txt{
   position: absolute;
-width: 397px;
+width: 30%;
 height: 238px;
-left: 936px;
+left: 68%;
 top: 367px;
 
 font-family: Montserrat;
