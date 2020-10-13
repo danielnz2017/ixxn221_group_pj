@@ -1,13 +1,13 @@
-*, *::after, *::before {
+*::after, *::before {
 
   box-sizing: border-box;
   margin: 0;
   box-sizing: border-box; 
-  font-family: 'PT Serif', serif;
-
-
+  font-family: Montserrat;
 }
 
+
+@media only screen and (min-width: 757px){
 
 html, body{
     
@@ -87,13 +87,6 @@ overflow-x: hidden;
   color: #fdb7b1;
 }
 
-
-
-
-
-
-
-
 .sidenav {
 
   display: none;
@@ -101,31 +94,19 @@ overflow-x: hidden;
 }
 
 .sidenav a {
-
   display: none;
-
 }
 
 .sidenav a:hover {
   display: none;
 }
 
-
 .sidenav .closebtn {
   display: none;
   
 }
 
-
-
-
-
-
-
-
 .logo1{
-
-
   width: 150px;
   height: 100px;
   position: relative;
@@ -135,8 +116,6 @@ overflow-x: hidden;
 
 
 .logo2{
-
-
   width: 200px;
   height: 38px;
   position: relative;
@@ -146,17 +125,19 @@ overflow-x: hidden;
 
 
 .sclog1 {
-
-
   width: 30px;
   height: 30px;
   position: relative;
   left: 25%;
   top: 95px;
-
 }
 
 
+
+p{
+  font-family: Montserrat;
+  margin: 0em;
+}
 
 .pic-a{
   width: 35%;
@@ -170,17 +151,9 @@ overflow-x: hidden;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
   position: relative;
-
-  
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
   font-size: 30px;
   line-height: 109.9%;
-  /* identical to box height, or 33px */
-  
   display: flex;
   align-items: center;
   text-transform: capitalize;
@@ -189,36 +162,55 @@ overflow-x: hidden;
 .recipe{
  position: relative;
  display: inline-block;
-  left: 400px;
+  left: 380px;
   width: 30%;
   top: 80px;
 }
 
+
+
 .vt{
   color: green;
   float: left;
-  margin: 0.4em 1em 0.2em 0em;
+  margin: 0.3em 0.5em 0 0;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 23px;
+background-color: #fcf1f0;
+border: 1px solid #fcf1f0;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+display: flex;
 
 }
 
 .df{
+  float: left;
   color: red;
-margin: 0.4em 1em 0.2em 0.4em;
+margin: 0.3em 1em 0 0.3em;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 23px;
+background-color: #fcf1f0;
+border: 1px solid #fcf1f0;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+display: flex;
 }
 
 .serves{
   font-weight: 500;
-  margin-bottom: 0.2em;
+  margin-top: 0.6em;
  font-size: 18px;
 }
 
@@ -267,7 +259,7 @@ line-height: 23px;
     .ingredients{
     position: relative;
     width: 30%;
-    left: 970px;
+    left: 950px;
     top: 85px;
     
     
@@ -280,9 +272,9 @@ line-height: 23px;
     
     }
 
+
+
     .ingredients-t{
-      position: relative;
-      
       font-family: Montserrat;
       font-style: normal;
       font-weight: 600;
@@ -290,6 +282,7 @@ line-height: 23px;
       line-height: 29px;
       letter-spacing: 0.05em;
       margin-bottom: 0.5em;
+      
 
     }
       
@@ -319,7 +312,7 @@ line-height: 23px;
         
         width: 191px;
         height: 52px;
-        padding: 15x 32px;
+        padding: 15px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -332,12 +325,18 @@ line-height: 23px;
       }
       
       
-
+    }
       
-      
-/* //////////// */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:756px){
+
+  main{
+font-family: montserrat;
+  }
+
+  p{
+    margin: 0;
+  }
 
     .pic-a{
 
@@ -361,6 +360,7 @@ line-height: 23px;
       font-style: normal;
       font-weight: 600;
       font-size: 20px;
+    
     }
 
 
@@ -368,21 +368,49 @@ line-height: 23px;
     .vt{
       color: green;
       float: left;
-      margin: 0.2em 1em 0.2em 0.1em;
+      margin: 0.3em 0.5em 0 0;
+      font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    background-color: #fcf1f0;
+    border: 1px solid #fcf1f0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
     }
-
+    
     .df{
+      float: left;
       color: red;
-    margin: 0.2em 1em 0.2em 0.5em;
+    margin: 0.3em 1em 0 0.3em;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    background-color: #fcf1f0;
+    border: 1px solid #fcf1f0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     }
-
+    
     .serves{
       font-weight: 500;
-      margin-bottom: 0.2em;
+      margin-top: 0.6em;
+    
     }
 
     .time{
       font-weight: 500;
+
     }
 
     .quote{
@@ -414,7 +442,7 @@ line-height: 23px;
     text-transform: capitalize;
     }
 
-    .instructions{
+    .instructions-container{
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -442,4 +470,21 @@ line-height: 23px;
     .button {
       display: none;
     }
+
+    .sidenav-1{
+      display: none;
+    }
+  
+    p{
+      margin: 0;
+    }
+  
+    #w1{
+    display: none;
+  }
+  
+  #w2{
+    display: none;
+  }
+
 }
