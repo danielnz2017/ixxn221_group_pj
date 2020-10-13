@@ -328,3 +328,13 @@ letter-spacing: 0.05em;
 color: #000000;
 
 }
+.line-b{
+  position: absolute;
+width: 827px;
+height: 0px;
+left: 520px;
+top: 856px;
+
+border: 1.5px solid #CD4747;
+transform: rotate(-90deg);
+}

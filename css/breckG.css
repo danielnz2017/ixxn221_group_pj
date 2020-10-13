@@ -273,7 +273,15 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.lCat{
+.bCat2 a:hover {
+  color: #fdb7b1;
+}
+.lCat a:hover {
+  color: #fdb7b1;
+}
+
+.lCat a{
+  
   position: absolute;
 width: 67px;
 height: 16px;
@@ -293,7 +301,10 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.diCat{
+.diCat a:hover {
+  color: #fdb7b1;
+}
+.diCat a{
   position: absolute;
 width: 75px;
 height: 16px;
@@ -313,7 +324,10 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.deCat{
+.deCat a:hover {
+  color: #fdb7b1;
+}
+.deCat a{
   position: absolute;
   width: 87px;
   height: 16px;
@@ -333,7 +347,10 @@ color: #000000;
   color: #000000;
   
 }
-.snCat{
+.snCat a:hover {
+  color: #fdb7b1;
+}
+.snCat a{
   position: absolute;
 width: 87px;
 height: 16px;
@@ -353,7 +370,10 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.siCat{
+.siCat a:hover {
+  color: #fdb7b1;
+}
+.siCat a{
   position: absolute;
 width: 57px;
 height: 16px;
@@ -373,7 +393,8 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.bCat2{
+
+.bCat2 a{
   position: absolute;
 width: 110px;
 height: 16px;
@@ -495,9 +516,9 @@ color: #000000;
 }
 .RgTitle1{
   position: absolute;
-left: 30.28%;
+left: 25%;
 right: 52.64%;
-top: 57.73%;
+top: 680px;
 bottom: 40.42%;
 
 font-family: Montserrat;
@@ -510,4 +531,35 @@ line-height: 22px;
 
 color: #000000;
 
+}
+.line-a{
+  position: absolute;
+width: 1073px;
+height: 0px;
+left: 367px;
+top: 110px;
+
+border: 1.5px solid #CD4747;
+}
+.breck-pic-1{
+  position: absolute;
+
+left: 25%;
+top: 273px;
+
+}
+.breck-pic-2{
+  position: absolute;
+  left: 25%;
+top: 709px;
+}
+.breck-pic-3{
+  position: absolute;
+  left: 50%;
+top: 709px;
+}
+.breck-pic-4{
+  position: absolute;
+  left: 75%;
+top: 709px;
 }

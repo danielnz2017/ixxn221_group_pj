@@ -167,8 +167,7 @@
   position: absolute;
 width: 40%;
 height: 168px;
-left: 704px;
-
+left: 50%;
 top: 868px;
 
 font-family: Montserrat;
@@ -184,8 +183,8 @@ color: #000000;
   position: absolute;
   width: 40%;
   height: 124px;
-left: 704px;
-top: 1181px;
+  left: 50%;
+  top: 1181px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -200,8 +199,8 @@ color: #000000;
   position: absolute;
   width: 40%;
   height: 124px;
-left: 704px;
-top: 1486px;
+  left: 50%;
+  top: 1486px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -217,7 +216,7 @@ color: #000000;
   position: absolute;
   width: 40%;
   height: 124px;
-left: 704px;
+left: 50%;
 top: 1786px;
 
 font-family: Montserrat;
@@ -235,3 +234,34 @@ color: #000000
 .name{
   font-weight: 600;
 }
+.person-1-photo{
+  position:absolute;
+  align:left;
+  width: 210px;
+  height: 210px;
+  left: 30%;
+  top: 1770px;
+  bottom:50px;
+  border: 5px solid #555;
+ }
+ .person-2-photo{
+  position:absolute;
+  align:left;
+  width: 210px;
+  height: 210px;
+  left: 30%;
+  top: 1165px;
+  bottom:50px;
+  border: 5px solid #555;
+ }
+ .person-3-photo{
+  position:absolute;
+  align:left;
+  width: 210px;
+  height: 210px;
+  left: 30%;
+  top: 1470px;
+  bottom:50px;
+  border: 5px solid #555;
+ }
+
