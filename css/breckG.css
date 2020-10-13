@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     box-sizing: border-box; 
-    font-family: 'PT Serif', serif;
+    font-family: Montserrat;
   
   
   }
@@ -229,7 +229,7 @@ color: #000000;
   position: absolute;
 width: 332px;
 height: 42px;
-left: 738px;
+left: 50%;
 top: 191px;
 
 font-family: Montserrat;
@@ -244,9 +244,9 @@ color: #000000;
 }
 .main-txt{
   position: absolute;
-width: 397px;
+width: 30%;
 height: 238px;
-left: 936px;
+left: 68%;
 top: 367px;
 
 font-family: Montserrat;
@@ -278,7 +278,15 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.lCat{
+.bCat2 a:hover {
+  color: #fdb7b1;
+}
+.lCat a:hover {
+  color: #fdb7b1;
+}
+
+.lCat a{
+  
   position: absolute;
 width: 67px;
 height: 16px;
@@ -298,7 +306,10 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.diCat{
+.diCat a:hover {
+  color: #fdb7b1;
+}
+.diCat a{
   position: absolute;
 width: 75px;
 height: 16px;
@@ -318,7 +329,10 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.deCat{
+.deCat a:hover {
+  color: #fdb7b1;
+}
+.deCat a{
   position: absolute;
   width: 87px;
   height: 16px;
@@ -338,7 +352,10 @@ color: #000000;
   color: #000000;
   
 }
-.snCat{
+.snCat a:hover {
+  color: #fdb7b1;
+}
+.snCat a{
   position: absolute;
 width: 87px;
 height: 16px;
@@ -358,7 +375,10 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.siCat{
+.siCat a:hover {
+  color: #fdb7b1;
+}
+.siCat a{
   position: absolute;
 width: 57px;
 height: 16px;
@@ -378,7 +398,8 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.bCat2{
+
+.bCat2 a{
   position: absolute;
 width: 110px;
 height: 16px;
@@ -498,3 +519,129 @@ text-transform: capitalize;
 color: #000000;
 
 }
+.RgTitle1{
+  position: absolute;
+left: 25%;
+
+top: 680px;
+bottom: 40.42%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.RgTitle2{
+  position: absolute;
+left: 50%;
+
+top: 680px;
+bottom: 40.42%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.RgTitle3{
+  position: absolute;
+left: 75%;
+
+top: 680px;
+bottom: 40.42%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.line-a{
+  position: absolute;
+width: 1073px;
+height: 0px;
+left: 367px;
+top: 110px;
+
+border: 1.5px solid #CD4747;
+}
+.breck-pic-1{
+  position: absolute;
+
+left: 25%;
+top: 273px;
+
+}
+.breck-pic-2{
+  position: absolute;
+  left: 25%;
+top: 709px;
+}
+.breck-pic-3{
+  position: absolute;
+  left: 50%;
+top: 709px;
+}
+.breck-pic-4{
+  position: absolute;
+  left: 75%;
+top: 709px;
+}
+.line-c{
+  position: absolute;
+width: 890px;
+height: 0px;
+left: 443px;
+top: 1135px;
+
+border: 2px solid #000000;
+
+}
+.b-end{
+
+
+  /* background-color: crimson; */
+  position: absolute;
+    top: 1000px;
+    width: 82.2%;
+    height: 90px;
+    left: 20%;
+
+
+}
+.button {
+  font-family: Montserrat;
+  border: 5px solid rgb(78, 78, 78);
+  border-radius: 5%;
+  background-color: white;
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  left: 50px;
+}
+
+
+
