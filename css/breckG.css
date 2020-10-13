@@ -609,3 +609,34 @@ top: 1135px;
 border: 2px solid #000000;
 
 }
+.b-end{
+
+
+  /* background-color: crimson; */
+  position: absolute;
+    top: 1000px;
+    width: 82.2%;
+    height: 90px;
+    left: 20%;
+
+
+}
+.button {
+  font-family: Montserrat;
+  border: 5px solid rgb(78, 78, 78);
+  border-radius: 5%;
+  background-color: white;
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  left: 50px;
+}
+
+
+
