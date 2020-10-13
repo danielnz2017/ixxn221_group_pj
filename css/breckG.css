@@ -640,6 +640,57 @@ border: 2px solid #000000;
 
 /*//////////////////////////////////////////*/
 @media only screen and (max-width: 500px) {
-   
+  .topnav {
+    overflow: hidden;
+    background-color: #fdb7b1;
+    position: fixed;
+    width: 100%;
+    height: 5.5%;
+    z-index: 1;
+    
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0px;
+    
+  }
+  
+  .topnav a:hover {
+    color: #ffffff;
+  }
+  
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+  .sidenav {
+    display: none; 
 }
+.dftxt{
+  display: none;
 
+}
+.filttxt{
+  display: none;
+
+}
+.gftxt{
+  display: none;
+
+}
+.vttxt{
+  display: none;
+
+}
+.vgtxt{
+  display: none;
+}
+}
