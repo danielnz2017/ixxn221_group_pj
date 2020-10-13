@@ -517,7 +517,43 @@ color: #000000;
 .RgTitle1{
   position: absolute;
 left: 25%;
-right: 52.64%;
+
+top: 680px;
+bottom: 40.42%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.RgTitle2{
+  position: absolute;
+left: 50%;
+
+top: 680px;
+bottom: 40.42%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.RgTitle3{
+  position: absolute;
+left: 75%;
+
 top: 680px;
 bottom: 40.42%;
 
@@ -562,4 +598,14 @@ top: 709px;
   position: absolute;
   left: 75%;
 top: 709px;
+}
+.line-c{
+  position: absolute;
+width: 890px;
+height: 0px;
+left: 443px;
+top: 1135px;
+
+border: 2px solid #000000;
+
 }
