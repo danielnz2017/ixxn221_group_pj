@@ -638,5 +638,8 @@ border: 2px solid #000000;
   left: 50px;
 }
 
-
+/*//////////////////////////////////////////*/
+@media only screen and (max-width: 500px) {
+   
+}
 
