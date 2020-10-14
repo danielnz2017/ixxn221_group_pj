@@ -643,7 +643,10 @@ border: 2px solid #000000;
   left: 50px;
 }
 
-/*//////////////////////////////////////////*/
+/*//////////////////////////////////////////
+///////////////////////////////////////////
+////////////////////////////////////////////
+///////////////////////////////////////////*/
 @media only screen and (max-width: 500px) {
   .topnav {
     overflow: hidden;
@@ -697,5 +700,298 @@ border: 2px solid #000000;
 }
 .vgtxt{
   display: none;
+}
+.bCat{
+  position: absolute;
+width: 110px;
+height: 16px;
+left: 5%;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.bCat2 a:hover {
+  color: #fdb7b1;
+}
+.lCat a:hover {
+  color: #fdb7b1;
+}
+
+.lCat a{
+  
+  position: absolute;
+width: 67px;
+height: 16px;
+left: 45%;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.diCat a:hover {
+  color: #fdb7b1;
+}
+.diCat a{
+  position: absolute;
+width: 75px;
+height: 16px;
+left: 80%;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.deCat a:hover {
+  color: #fdb7b1;
+}
+.deCat a{
+  position: absolute;
+  width: 87px;
+  height: 16px;
+  left: 5%;
+  top: 170px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.0073px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+}
+.snCat a:hover {
+  color: #fdb7b1;
+}
+.snCat a{
+  position: absolute;
+width: 87px;
+height: 16px;
+left: 45%;
+top: 170px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.siCat a:hover {
+  color: #fdb7b1;
+}
+.siCat a{
+  position: absolute;
+width: 57px;
+height: 16px;
+left: 80%;
+top: 170px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+
+.bCat2 a{
+  position: absolute;
+width: 110px;
+height: 16px;
+left: 489px;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.lCat2{
+  position: absolute;
+width: 67px;
+height: 16px;
+left: 668px;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.diCat2{
+  position: absolute;
+width: 75px;
+height: 16px;
+left: 804px;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.deCat2{
+  position: absolute;
+  width: 87px;
+  height: 16px;
+  left: 948px;
+  top: 133px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.0073px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+}
+.snCat2{
+  position: absolute;
+width: 87px;
+height: 16px;
+left: 1104px;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.siCat2{
+  position: absolute;
+width: 57px;
+height: 16px;
+left: 1260px;
+top: 135px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.bTitle{
+  position: absolute;
+width: 332px;
+height: 42px;
+left: 20%;
+top: 191px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 43px;
+text-align: center;
+
+color: #000000;
+
+}
+.breck-pic-1{
+  display:none;
+
+}
+.breck-pic-1sm{
+  position: absolute;
+
+left: 0%;
+top: 273px;
+
+}
+.main-txt{
+  display: none;
+
 }
 }
