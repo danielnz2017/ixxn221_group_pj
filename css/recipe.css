@@ -55,6 +55,16 @@ overflow-x: hidden;
   display: none;
 }
 
+#w1{
+ 
+  font-family: Montserrat;
+}
+
+#w2{
+  
+  font-family: Montserrat;
+}
+
 
 
 
@@ -76,6 +86,7 @@ overflow-x: hidden;
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
+  font-family: Montserrat;
   color: #000000;
   display: block;
   position: relative;
@@ -309,7 +320,7 @@ display: flex;
         border: 5px solid rgb(78, 78, 78);
         border-radius: 5%;
         background-color: white;
-        
+        font-family: Montserrat;
         width: 191px;
         height: 52px;
         padding: 15px 32px;
