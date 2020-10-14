@@ -306,7 +306,10 @@ border-radius: 3px;
       border-radius: 3px;
       
       }
-
+/*///////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////*/
       @media only screen and (max-width: 750px) {
         .topnav {
           overflow: hidden;
@@ -343,6 +346,186 @@ border-radius: 3px;
         .sidenav {
           display: none;
         }
-      
+        .logomid{
+          position: absolute;
+        width: 90%;
+        height: 80px;
+        left: 5%;
+        top: 100px;
+        }
+        .em{
+          position: absolute;
+          width: 80%;
+          height: 60px;
+        left: 10%;
+        top: 300px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-indent: 10px;
+        
+        color: #4E4E4E;
+        
+        background: #F5F5F5;
+        border: 0.5px solid #A6A6A6;
+        box-sizing: border-box;
+        border-radius: 3px;
+        }
+        .fn{
+          position: absolute;
+          
+        width: 80%;
+          height: 60px;
+        left: 10%;
+        top: 400px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-indent: 10px;
+        
+        color: #4E4E4E;
+        
+        background: #F5F5F5;
+        border: 0.5px solid #A6A6A6;
+        box-sizing: border-box;
+        border-radius: 3px;
+        
+        
+        }
+        .use{
+          position: absolute;
+          width: 80%;
+          height: 60px;
+        left: 10%;
+        
+        top: 500px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-indent: 10px;
+        
+        color: #4E4E4E;
+        
+        background: #F5F5F5;
+        border: 0.5px solid #A6A6A6;
+        box-sizing: border-box;
+        border-radius: 3px;
+        
+        }
+        .pass{
+        position: absolute;
+        width: 80%;
+          height: 60px;
+        left: 10%;
+        
+        top: 600px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-indent: 10px;
+        
+        color: #4E4E4E;
+        
+        background: #F5F5F5;
+        border: 0.5px solid #A6A6A6;
+        box-sizing: border-box;
+        border-radius: 3px;
+        
+        }
+        .confPass{
+          position: absolute;
+          width: 80%;
+          height: 60px;
+        left: 10%;
+          
+          top: 700px;
+          
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+          text-indent: 10px;
+          
+          color: #4E4E4E;
+          
+          background: #F5F5F5;
+          border: 0.5px solid #A6A6A6;
+          box-sizing: border-box;
+          border-radius: 3px;
+          
+          }
+          .sign{
+            position: absolute;
+            width: 80%;
+          height: 60px;
+        left: 10%;
+            
+            top: 800px;
+            
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            text-indent: 10px;
+            
+            color: #4E4E4E;
+            
+            background: #FDB7B2;
+            border: 0.5px solid #A6A6A6;
+            box-sizing: border-box;
+            border-radius: 3px;
+            
+            }
+            .log{
+              position: absolute;
+              width: 80%;
+          height: 60px;
+        left: 10%;
+             
+              top: 500px;
+              
+              font-family: Montserrat;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 24px;
+              line-height: 20px;
+              display: flex;
+              align-items: center;
+              text-indent: 10px;
+              
+              color: #4E4E4E;
+              
+              background: #FDB7B2;
+              border: 0.5px solid #A6A6A6;
+              box-sizing: border-box;
+              border-radius: 3px;
+              
+              }
       
       }
