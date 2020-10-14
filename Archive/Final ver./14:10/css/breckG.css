@@ -1,0 +1,1742 @@
+*, *::after, *::before {
+
+  box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box; 
+  font-family: 'Montserrat';
+
+
+}
+
+
+html, body{
+    
+width: 100%;
+height: 100%;
+    
+margin: 0px; 
+padding: 0px;
+overflow-x: hidden;
+
+}
+
+
+/* ............................................................................................................................................. */
+
+  .sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    background-color: #ebeceb;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    position: relative;
+    left: 20%;
+    top: 10%;
+  }
+  
+  .sidenav a:hover {
+    color: #fdb7b1;
+  }
+
+/* ............................................................................................................................................. */
+
+
+
+  .logo1{
+
+
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: 20%;
+    top: 55px;
+  }
+
+
+  .logo2{
+
+
+    width: 200px;
+    height: 38px;
+    position: relative;
+    top: 5px;
+    left: 1%;
+  }
+
+
+  .sclog1 {
+
+
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 25%;
+    top: 95px;
+
+  }
+
+
+  /* ............................................................................................................................................. */
+
+/* added */
+.dftxt{
+  position: absolute;
+width: 110px;
+height: 16px;
+left: 645px;
+top: 66px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.filttxt{
+  position: absolute;
+width: 193px;
+height: 17px;
+left: 392px;
+top: 66px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.gftxt{
+  position: absolute;
+width: 124px;
+height: 16px;
+left: 845px;
+top: 66px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.vttxt{
+  position: absolute;
+width: 124px;
+height: 16px;
+left: 1061px;
+top: 66px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.vgtxt{
+  position: absolute;
+  width: 71px;
+  height: 16px;
+  left: 1269px;
+  top: 65px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.0073px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+}
+
+
+/* ............................................................................................................................................. */
+
+.bTitle{
+position: absolute;
+width: 332px;
+height: 42px;
+left: 50%;
+top: 191px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 35.0863px;
+line-height: 43px;
+text-align: center;
+
+color: #000000;
+
+}
+.main-txt{
+  position: absolute;
+width: 30%;
+height: 238px;
+left: 68%;
+top: 367px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+}
+
+
+
+/* ............................................................................................................................................. */
+
+.bCat{
+position: absolute;
+width: 110px;
+height: 16px;
+left: 489px;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+
+
+.bCat2 a:hover {
+  color: #fdb7b1;
+}
+.lCat a:hover {
+  color: #fdb7b1;
+}
+
+.lCat a{
+  
+position: absolute;
+width: 67px;
+height: 16px;
+left: 668px;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.diCat a:hover {
+  color: #fdb7b1;
+}
+.diCat a{
+  position: absolute;
+width: 75px;
+height: 16px;
+left: 804px;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.deCat a:hover {
+  color: #fdb7b1;
+}
+.deCat a{
+  position: absolute;
+  width: 87px;
+  height: 16px;
+  left: 948px;
+  top: 133px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.0073px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+}
+.snCat a:hover {
+  color: #fdb7b1;
+}
+.snCat a{
+  position: absolute;
+width: 87px;
+height: 16px;
+left: 1104px;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.siCat a:hover {
+  color: #fdb7b1;
+}
+.siCat a{
+  position: absolute;
+width: 57px;
+height: 16px;
+left: 1260px;
+top: 135px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+
+.bCat2 a{
+  position: absolute;
+width: 110px;
+height: 16px;
+left: 489px;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.lCat2{
+  position: absolute;
+width: 67px;
+height: 16px;
+left: 668px;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.diCat2{
+  position: absolute;
+width: 75px;
+height: 16px;
+left: 804px;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.deCat2{
+  position: absolute;
+  width: 87px;
+  height: 16px;
+  left: 948px;
+  top: 133px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.0073px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+}
+.snCat2{
+  position: absolute;
+width: 87px;
+height: 16px;
+left: 1104px;
+top: 134px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.siCat2{
+  position: absolute;
+width: 57px;
+height: 16px;
+left: 1260px;
+top: 135px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19.0073px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+
+
+
+/* ............................................................................................................................................. */
+
+.RgTitle1{
+  position: absolute;
+left: 25%;
+
+top: 680px;
+bottom: 40.42%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.RgTitle2{
+  position: absolute;
+left: 50%;
+
+top: 680px;
+bottom: 40.42%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.RgTitle3{
+  position: absolute;
+left: 75%;
+
+top: 680px;
+bottom: 40.42%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+
+/* ............................................................................................................................................. */
+
+.line-a{
+  position: absolute;
+width: 1073px;
+height: 0px;
+left: 367px;
+top: 110px;
+
+border: 1.5px solid #CD4747;
+}
+.breck-pic-1{
+  position: absolute;
+
+left: 25%;
+top: 273px;
+
+}
+.breck-pic-2{
+  position: absolute;
+  left: 25%;
+top: 709px;
+}
+.breck-pic-3{
+  position: absolute;
+  left: 50%;
+top: 709px;
+}
+.breck-pic-4{
+  position: absolute;
+  left: 75%;
+top: 709px;
+}
+.line-c{
+  position: absolute;
+width: 890px;
+height: 0px;
+left: 443px;
+top: 1135px;
+
+border: 2px solid #000000;
+
+}
+
+/* ............................................................................................................................................. */
+
+.b-end{
+
+
+  /* background-color: crimson; */
+  position: absolute;
+    top: 1000px;
+    width: 82.2%;
+    height: 90px;
+    left: 20%;
+
+
+}
+
+/* ............................................................................................................................................. */
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #fdb7b1;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  
+}
+
+.topnav a:hover {
+  color: #ffffff;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+/* ............................................................................................................................................. */
+
+
+
+
+.sidenav-1 {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  
+  top: 0;
+  left: 0;
+  background-color: #ebeceb;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav-1 a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  position: relative;
+  left: 20%;
+  top: 10%;
+}
+
+.sidenav-1 a:hover {
+  color: #fdb7b1;
+}
+
+
+
+/* ............................................................................................................................................. */
+
+
+
+
+
+.sidenav {
+
+  display: none;
+
+}
+
+.sidenav a {
+
+  display: none;
+
+}
+
+.sidenav a:hover {
+  display: none;
+}
+
+
+.sidenav .closebtn {
+  display: none;
+  
+}
+
+
+
+
+
+/* ............................................................................................................................................. */
+
+
+
+.logo1{
+
+
+  width: 150px;
+  height: 100px;
+  position: relative;
+  left: 20%;
+  top: 55px;
+}
+
+
+.logo2{
+
+
+  width: 200px;
+  height: 38px;
+  position: relative;
+  top: 5px;
+  left: 1%;
+}
+
+
+.sclog1 {
+
+
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  top: 95px;
+
+}
+
+
+/* ............................................................................................................................................. */
+
+
+
+
+
+.head1{
+
+
+  font-size: 50px;
+}
+
+
+.pra-1{
+
+
+  font-size: 20px;
+}
+
+
+.grid-container {
+
+display: none;
+
+}
+
+.grid-item {
+ 
+  
+display: none;
+}
+
+
+/* ............................................................................................................................................. */
+
+.sub-title {
+
+
+  /* background-color: brown; */
+  position: relative;
+  top: 160px;
+  width: 82.2%;
+  left: 17.85%;
+  text-align: center;
+
+}
+
+
+.sub-titleM{
+
+  display: none;
+
+}
+
+
+
+.pt-mid{
+
+  /* background-color: chartreuse; */
+  height: 80px;
+  position: relative;
+  top: 200px;
+  width: 82.2%;
+  left: 17.85%;
+
+}
+
+
+.sub-ti2{
+ 
+  margin-left:110px;
+}
+
+
+
+.heading-2{
+
+margin-left: 110px;
+
+}
+
+
+/* ............................................................................................................................................. */
+
+
+
+
+
+
+
+
+.g-row{
+width: 100%;
+overflow: hidden;
+margin-left: 8.8%;
+
+}
+
+.g-row img{
+
+
+border-radius: 10px;
+width: 100%;   
+}
+
+.g1{
+
+  width: 25%;
+  float: left;
+  margin: 20px;
+  
+}
+
+.box{
+  
+    
+  position: relative;
+  top: 620px;
+  width: 82.2%;
+  left: 17.85%;
+ 
+
+}
+
+.gr-pic{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+.gr-pic:hover{
+opacity: 0.5;
+}
+
+
+
+/* ............................................................................................................................................. */
+
+
+
+.b-line{
+
+
+position: relative;
+width: 78%;
+left: 20%;
+top: 650px;
+
+}
+
+
+.b-end{
+
+
+/* background-color: crimson; */
+position: relative;
+  top: 900px;
+  width: 82.2%;
+  height: 90px;
+  left: 17.85%;
+
+
+}
+
+
+/* ............................................................................................................................................. */
+
+
+.side-r{
+
+
+display: none;
+
+}
+
+.side-r1{
+
+
+display: none;
+}
+
+
+
+
+/* ............................................................................................................................................. */
+
+
+
+
+.bt-side-nav{
+
+display: none;
+}
+
+
+
+
+
+.logo1x{
+
+display: none;
+
+}
+
+
+
+
+.logo-md{
+
+display: none;
+}
+
+
+
+.t-line{
+
+display: none;
+}
+
+
+/* ............................................................................................................................................. */
+
+
+
+.sub-mobi{
+
+display: none;
+
+
+}
+
+.sub-mobi1 {
+
+display: none;
+}
+
+.sub-mobi2 {
+
+display: none;
+}
+
+.sub-mobi3 {
+
+display: none;
+}
+
+
+/* ............................................................................................................................................. */
+
+.gr-pic1{
+
+display: none;
+}
+
+.gr-pic2{
+
+display: none;
+}
+
+.gr-pic3{
+
+display: none;
+}
+
+.gr-pic4{
+
+display: none;
+}
+
+.sub-me{
+
+  position: relative;
+  margin-left: 50px;
+
+}
+
+
+.button1{
+
+  position: relative;
+  top:550px;
+  left: 85%;
+}
+
+
+/*//////////////////////////////////////////*/
+
+/*//////////////////////////////////////////*/
+
+/*//////////////////////////////////////////*/
+
+/*//////////////////////////////////////////*/
+
+/*//////////////////////////////////////////*/
+
+/*//////////////////////////////////////////*/
+
+/*//////////////////////////////////////////*/
+
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+
+  .topnav {
+    overflow: hidden;
+    background-color: #fdb7b1;
+    position: fixed;
+    width: 100%;
+    height: 5.5%;
+    z-index: 1;
+    
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0px;
+    
+  }
+  
+  .topnav a:hover {
+    color: #ffffff;
+  }
+  
+  /* ............................................................................................................................................. */
+  
+  .topnav .icon {
+    display: none;
+  }
+  .sidenav {
+    display: none; 
+}
+.dftxt{
+  display: none;
+
+}
+.filttxt{
+  display: none;
+
+}
+.gftxt{
+  display: none;
+
+}
+.vttxt{
+  display: none;
+
+}
+.vgtxt{
+  display: none;
+}
+
+/* ............................................................................................................................................. */
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #fdb7b1;
+  position: fixed;
+  width: 100%;
+  height: 5.5%;
+  z-index: 1;
+  
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  
+}
+
+.topnav a:hover {
+  color: #ffffff;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+/* ............................................................................................................................................. */
+
+.logo1x{
+
+  position: relative;
+  width: 67px;
+  height: 48px;
+  top:2px;
+  left: 5px;
+  float: left;
+  display: block;
+
+
+}
+
+
+
+
+.logo-md{
+
+display: flex;
+width: 200px;
+height: 38px;
+position: relative;
+top: 7%;
+margin: auto;
+}
+
+/* ............................................................................................................................................. */
+
+#w1{
+
+  display: none;
+
+}
+
+#w2{
+
+  display: none;
+
+}
+
+.sidenav-1 {
+
+
+  display: none;
+
+}
+
+.sidenav-1 a {
+
+  display: none;
+}
+
+.sidenav-1 a:hover {
+  display: none;
+}
+
+
+/* ............................................................................................................................................. */
+
+
+
+
+.sidenav {
+  display: block;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ebeceb;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  display: block;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  display: block;
+  color: #fdb7b1;
+}
+
+
+.sidenav .closebtn {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 130px;
+  
+}
+
+/* ............................................................................................................................................. */
+
+  .bt-side-nav{
+
+    display: flex;
+    position: relative;
+    float: right;
+    right: 2%;
+    
+    top:10%
+  }
+
+
+  #social-m{
+
+    display: none;
+  }
+
+
+  .logo1{
+
+
+    display: none;
+
+  }
+
+
+  .logo2{
+
+
+    display: none;
+  }
+
+
+  .sclog1 {
+
+
+    display: none;
+
+  }
+
+
+/* ............................................................................................................................................. */
+
+
+
+
+
+
+.head1{
+
+
+  font-size: 20px;
+  position: relative;
+  right: -8.5%;
+  margin-top: -90px;
+}
+
+
+
+.t-line{
+
+display: block;
+position: relative;
+margin-top: 90px;
+width: 400px;
+left: 23%;
+}
+
+
+
+.pra-1{
+
+
+  
+  display: none;
+}
+
+
+
+#item-caty{
+
+display: none;
+
+}
+
+
+/* ............................................................................................................................................. */
+
+.grid-container {
+  
+  
+  
+  display: grid;
+  position: relative;
+  top: 100px;
+  width: 100%;
+  left: 0%;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #fdb7b1;
+  padding: 1px;
+}
+.grid-item {
+ 
+  display: block;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.sub-title {
+
+
+  display: none;
+
+}
+
+
+.sub-titleM{
+
+  position: relative;
+  top: 50px;
+  width: 82.2%;
+  left: 3%;
+  text-align: left;
+  display: block;
+
+
+}
+
+
+/* ............................................................................................................................................. */
+
+.pt-mid{
+
+
+  height: 80px;
+  position: relative;
+  top: 200px;
+  width: 82.2%;
+  left: 0%;
+
+}
+
+
+.sub-ti2{
+ 
+  display: none;
+}
+
+
+
+.pic-m{
+
+  position: relative;
+  top: 0%;
+  width: 750px;
+  height: 246px;
+  border-radius: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+
+.pic-m:hover{
+  opacity: 1;
+}
+
+
+
+.pic-m2{
+
+
+  width: 30px;
+  height: 30px;
+}
+
+
+.sub-title2{
+
+  position: relative;
+  
+  top: 280px;
+  width: 100%;
+  left: 0%;
+
+}
+
+.heading-2{
+
+  margin-left: 15px;
+
+}
+
+
+
+/* ............................................................................................................................................. */
+
+
+.g-row{
+width: 130%;
+position: relative;
+left: -10%;
+}
+
+.g-row img{
+
+
+border-radius: 0px;
+width: 65%;   
+}
+
+.g1{
+
+  position: relative;
+  
+  width: 60%;
+  float: left;
+  margin-left: 10px;
+  margin-top: -45px;
+  
+}
+/* ............................................................................................................................................. */
+.box{
+  
+  position: relative;
+  top: 300px;
+  width: 82.2%;
+  left: 0%;
+
+}
+
+.gr-pic{
+
+display: none;
+
+}
+
+
+.gr-pic1{
+display: block;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-top: -44.5px;
+
+}
+
+
+.gr-pic2{
+
+display: block;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-top: -65px;
+
+
+}
+
+
+.gr-pic3{
+
+display: block;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-top: -64.5px;
+
+
+}
+
+
+
+.gr-pic4{
+
+display: block;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-top: -65px;
+
+
+}
+
+
+
+
+
+.gr-pic:hover{
+opacity: 0.5;
+}
+
+
+
+
+
+
+
+.b-line{
+
+
+display: none;
+
+}
+
+
+/* ............................................................................................................................................. */
+
+.b-end{
+
+position: relative;
+  top: 350px;
+  width: 82.2%;
+  height: 90px;
+  left: 12%;
+
+
+}
+
+
+.hide-in{
+
+display: none;
+}
+
+/* ............................................................................................................................................. */
+
+.sub-mobi{
+
+display: block;
+width: 75%;
+position: relative;
+left: 50%;
+top: 50px;
+font-size: 17px;
+
+
+
+}
+
+
+.sub-mobi1{
+
+
+display: block;
+width: 50%;
+position: relative;
+left: 50%;
+top: 50px;
+font-size: 17px;
+
+
+
+}
+
+
+
+
+.sub-mobi2{
+
+
+display: block;
+width: 50%;
+position: relative;
+left: 50%;
+top: 30px;
+font-size: 17px;
+
+
+
+}
+
+
+.sub-mobi3{
+
+
+display: block;
+width: 50%;
+position: relative;
+left: 50%;
+top: 30px;
+font-size: 17px;
+
+
+
+}
+
+/* ............................................................................................................................................. */
+
+.side-r{
+
+background-color: #fdb7b1;
+display: block;
+width: 72.5%;
+height: 30px;
+position: relative;
+
+left: 200px;
+top: -30px;
+font-size: 20px;
+
+}
+
+
+.side-r1{
+
+
+background-color: #fdb7b1;
+display: block;
+width: 72.5%;
+height: 30px;
+position: relative;
+
+left: 200px;
+top: -30px;
+font-size: 20px;
+}
+
+
+
+
+#hide-gr{
+
+display: none;
+}
+
+.card-v{
+
+background-color: rgb(255, 255, 255);
+margin-top: 60px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+width: 152%;
+height: 157px;
+}
+
+
+
+#hover-hi{
+
+display: none;
+}
+
+
+
+#hide-item-1 {
+
+  display: none;
+}
+
+
+
+#hide-sub-me{
+
+  display: none;
+}
+
+
+#hide-sub-me2{
+
+  display: none;
+}
+
+.bTitle{
+
+position: absolute;
+width: 332px;
+height: 42px;
+left: 30%;
+top: 220px;
+}
+
+
+.main-txt{
+
+  display: none;
+
+}
+
+
+
+.breck-pic-1{
+display: none;
+
+}
+
+}
