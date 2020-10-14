@@ -105,7 +105,7 @@
     height: 38px;
     position: relative;
     top: 5px;
-    left: 5px;
+    left: 1%;
   }
   .logo3{
 
@@ -304,5 +304,45 @@ border-radius: 3px;
       border: 0.5px solid #A6A6A6;
       box-sizing: border-box;
       border-radius: 3px;
+      
+      }
+
+      @media only screen and (max-width: 750px) {
+        .topnav {
+          overflow: hidden;
+          background-color: #fdb7b1;
+          position: fixed;
+          width: 100%;
+          height: 5.5%;
+          z-index: 1;
+          
+        }
+        
+        .topnav a {
+          float: right;
+          display: block;
+          
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          color: #000000;
+          font-size: 0px;
+          
+        }
+        
+        .topnav a:hover {
+          color: #ffffff;
+        }
+        
+        
+        
+        .topnav .icon {
+          display: none;
+        }
+        
+        .sidenav {
+          display: none;
+        }
+      
       
       }
