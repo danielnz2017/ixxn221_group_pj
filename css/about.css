@@ -1,0 +1,765 @@
+*, *::after, *::before {
+
+    box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: Montserrat;
+  
+  
+  }
+  
+  html, body{
+      
+  width: 100%;
+  height: 100%;
+      
+  margin: 0px; 
+  padding: 0px;
+  overflow-x: hidden;
+  
+  }
+  
+
+/* .............................................. */
+  
+  .sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    background-color: #ebeceb;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    position: relative;
+    left: 20%;
+    top: 10%;
+  }
+  
+  .sidenav a:hover {
+    color: #fdb7b1;
+  }
+
+  /* .............................................. */
+
+
+
+  .logo1{
+
+
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: 20%;
+    top: 55px;
+  }
+
+
+  .logo2{
+
+
+    width: 200px;
+    height: 38px;
+    position: relative;
+    top: 5px;
+    left: 1%;
+  }
+
+
+  .sclog1 {
+
+
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 25%;
+    top: 95px;
+
+  }
+
+
+  /* .............................................. */
+
+
+
+/* added */
+.main-text{
+  position: absolute;
+  width: 30%;
+  height: 754px;
+  left: 300px;
+  top: 44px;
+
+}
+.a-title{
+  position: absolute;
+  width: 165px;
+  height: 44px;
+  left: 44px;
+  top: 76px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+}
+.a-text{
+  position: absolute;
+  width: 100%;
+  height: 538px;
+  left: 44px;
+  top: 155px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+
+}
+
+.pers1txt{
+  position: absolute;
+width: 40%;
+height: 168px;
+left: 50%;
+top: 868px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.pers2txt{
+  position: absolute;
+  width: 40%;
+  height: 124px;
+  left: 50%;
+  top: 1181px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.pers3txt{
+  position: absolute;
+  width: 40%;
+  height: 124px;
+  left: 50%;
+  top: 1486px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+.pers4txt{
+  position: absolute;
+  width: 40%;
+  height: 124px;
+left: 50%;
+top: 1786px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000
+
+}
+
+.smlT{
+  font-size: 18px;
+}
+.name{
+  font-weight: 600;
+}
+.person-1-photo{
+  position:absolute;
+  align:left;
+  width: 210px;
+  height: 210px;
+  left: 30%;
+  top: 852px;
+  bottom:50px;
+  border: 5px solid #555;
+ }
+ .person-2-photo{
+  position:absolute;
+  align:left;
+  width: 210px;
+  height: 210px;
+  left: 30%;
+  top: 1165px;
+  bottom:50px;
+  border: 5px solid #555;
+ }
+ .person-3-photo{
+  position:absolute;
+  align:left;
+  width: 210px;
+  height: 210px;
+  left: 30%;
+  top: 1470px;
+  bottom:50px;
+  border: 5px solid #555;
+ }
+ .person-4-photo{
+  position:absolute;
+  align:left;
+  width: 210px;
+  height: 210px;
+  left: 30%;
+  top: 1770px;
+  bottom:50px;
+  border: 5px solid #555;
+ }
+ /* .............................................. */
+
+
+
+
+
+ .topnav {
+  overflow: hidden;
+  background-color: #fdb7b1;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  
+}
+
+.topnav a:hover {
+  color: #ffffff;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+/* .............................................. */
+
+
+
+
+
+.sidenav-1 {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  
+  top: 0;
+  left: 0;
+  background-color: #ebeceb;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav-1 a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  position: relative;
+  left: 20%;
+  top: 10%;
+}
+
+.sidenav-1 a:hover {
+  color: #fdb7b1;
+}
+
+
+.sidenav {
+
+  display: none;
+
+}
+
+.sidenav a {
+
+  display: none;
+
+}
+
+.sidenav a:hover {
+  display: none;
+}
+
+
+.sidenav .closebtn {
+  display: none;
+  
+}
+
+/* .............................................. */
+
+
+
+
+
+
+.logo1{
+
+
+  width: 150px;
+  height: 100px;
+  position: relative;
+  left: 20%;
+  top: 55px;
+}
+
+
+.logo2{
+
+
+  width: 200px;
+  height: 38px;
+  position: relative;
+  top: 5px;
+  left: 1%;
+}
+
+
+.sclog1 {
+
+
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  top: 95px;
+
+}
+
+/* .............................................. */
+
+
+.bt-side-nav{
+
+display: none;
+}
+
+
+
+
+
+.logo1x{
+
+display: none;
+
+}
+
+
+
+
+.logo-md{
+
+display: none;
+}
+
+
+
+
+ 
+ /*//////////////////////////////////////////////////////
+ ////////////////////////////////////////////////////////
+ ///////////////////////////////////////////////////////
+ //////////////////////////////////////////////////////*/
+  /*//////////////////////////////////////////////////////
+ ////////////////////////////////////////////////////////
+ ///////////////////////////////////////////////////////
+ //////////////////////////////////////////////////////*/
+  /*//////////////////////////////////////////////////////
+ ////////////////////////////////////////////////////////
+ ///////////////////////////////////////////////////////
+ //////////////////////////////////////////////////////*/
+
+
+
+ @media only screen and (max-width: 750px) {
+
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+  .sidenav {
+    display: none;
+  }
+  .a-title{
+    position: relative;
+    width: 165px;
+    height: 44px;
+    left: 40px;
+    top: 76px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+  }
+
+  /* .............................................. */
+
+  .main-text{
+    position: absolute;
+    width: 80%;
+    height: 754px;
+    left: 5px;
+    top: 44px;
+  
+  }
+  .pers1txt{
+    position: absolute;
+  width: 80%;
+  height: 168px;
+  left: 40px;
+  top: 980px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #000000;
+  
+  }
+  .pers2txt{
+    position: absolute;
+  width: 80%;
+  height: 168px;
+  left: 40px;
+  top: 1480px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #000000;
+  
+  }
+  .pers3txt{
+    position: absolute;
+  width: 80%;
+  height: 168px;
+  left: 40px;
+  top: 1940px;
+
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #000000;
+  
+  }
+  .pers4txt{
+    position: absolute;
+  width: 80%;
+  height: 168px;
+  left: 40px;
+  top: 2400px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #000000;
+  
+  }
+  .person-1-photo{
+    position:absolute;
+    align:left;
+    width: 210px;
+    height: 210px;
+    left: 30%;
+    top: 740px;
+    bottom:50px;
+    border: 5px solid #555;
+   }
+  .person-2-photo{
+    position:absolute;
+    align:left;
+    width: 210px;
+    height: 210px;
+    left: 30%;
+    top: 1220px;
+    bottom:50px;
+    border: 5px solid #555;
+   }
+   .person-3-photo{
+    position:absolute;
+    align:left;
+    width: 210px;
+    height: 210px;
+    left: 30%;
+    top: 1680px;
+    bottom:50px;
+    border: 5px solid #555;
+   }
+   .person-4-photo{
+    position:absolute;
+    align:left;
+    width: 210px;
+    height: 210px;
+    left: 30%;
+    top: 2140px;
+    bottom:50px;
+    border: 5px solid #555;
+   }
+   .backgroundP{
+     display: none;
+   }
+
+
+
+   /* .............................................. */
+
+
+   .topnav {
+    overflow: hidden;
+    background-color: #fdb7b1;
+    position: fixed;
+    width: 100%;
+    height: 5.5%;
+    z-index: 1;
+    
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    
+  }
+  
+  .topnav a:hover {
+    color: #ffffff;
+  }
+  
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+
+
+
+  /* .............................................. */
+
+
+  .logo1x{
+
+    position: relative;
+    width: auto;
+    height: 35px;
+    top:2px;
+    left: 5px;
+    float: left;
+    display: block;
+
+  
+  }
+
+
+
+
+  .logo-md{
+
+  display: flex;
+  width: 200px;
+  height: 38px;
+  position: relative;
+  top: 7%;
+  margin: auto;
+  }
+
+
+
+  /* .............................................. */
+
+
+
+  #w1{
+
+    display: none;
+
+  }
+
+  #w2{
+
+    display: none;
+
+  }
+
+  .sidenav-1 {
+
+
+    display: none;
+
+  }
+
+  .sidenav-1 a {
+
+    display: none;
+  }
+
+  .sidenav-1 a:hover {
+    display: none;
+  }
+
+
+  /* .............................................. */
+
+
+  .sidenav {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ebeceb;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    display: block;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    display: block;
+    color: #fdb7b1;
+  }
+
+
+  .sidenav .closebtn {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 130px;
+    
+  }
+
+/* .............................................. */
+
+    .bt-side-nav{
+
+      display: flex;
+      position: relative;
+      float: right;
+      right: 2%;
+      
+      top:10%
+    }
+
+
+    #social-m{
+
+      display: none;
+    }
+
+
+    .logo1{
+
+
+      display: none;
+
+    }
+
+
+    .logo2{
+
+
+      display: none;
+    }
+
+
+    .sclog1 {
+
+
+      display: none;
+
+    }
+
+
+ }
