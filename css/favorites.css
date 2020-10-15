@@ -24,7 +24,28 @@
 
   
 /* ......................................................................................................................... */
+  .favlink {
+    color:#CD4747;
+  }
 
+  .favlink a:link {
+    color: #CD4747;
+  }
+  
+ 
+  .favlink a:visited {
+    color: black;
+  }
+  
+
+  .favlink a:hover {
+    color: #CD4747;
+  }
+  
+
+  .favlink a:active {
+    color: #CD4747;
+  }
   
   .sidenav {
     height: 100%;
