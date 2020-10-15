@@ -242,7 +242,7 @@ top: 134px;
 
 font-family: Montserrat;
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 19.0073px;
 line-height: 23px;
 display: flex;
@@ -254,12 +254,24 @@ color: #000000;
 
 }
 
+.bCat a:active {
+  color:black;
+}
 
-.bCat2 a:hover {
-  color: #fdb7b1;
+.bCat a:visited {
+  color:black;
+}
+
+
+.bCat a:hover {
+  color: #CD4747;
 }
 .lCat a:hover {
-  color: #fdb7b1;
+  color: #CD4747;
+}
+
+.lCat a:active {
+  color: #CD4747;
 }
 
 .lCat a{
@@ -283,9 +295,15 @@ text-transform: capitalize;
 color: #000000;
 
 }
+
 .diCat a:hover {
-  color: #fdb7b1;
+  color: #CD4747;
 }
+
+.diCat a:active {
+  color: #CD4747;
+}
+
 .diCat a{
   position: absolute;
 width: 75px;
@@ -306,9 +324,15 @@ text-transform: capitalize;
 color: #000000;
 
 }
+
 .deCat a:hover {
-  color: #fdb7b1;
+  color: #CD4747;
 }
+
+.deCat a:active {
+  color: #CD4747;
+}
+
 .deCat a{
   position: absolute;
   width: 87px;
@@ -329,9 +353,15 @@ color: #000000;
   color: #000000;
   
 }
+
 .snCat a:hover {
-  color: #fdb7b1;
+  color: #CD4747;
 }
+
+.snCat a:active {
+  color: #CD4747;
+}
+
 .snCat a{
   position: absolute;
 width: 87px;
@@ -353,8 +383,13 @@ color: #000000;
 
 }
 .siCat a:hover {
-  color: #fdb7b1;
+  color: #CD4747;
 }
+
+.siCat a:active {
+  color: #CD4747;
+}
+
 .siCat a{
   position: absolute;
 width: 57px;
@@ -1157,8 +1192,8 @@ display: none;
 .logo1x{
 
   position: relative;
-  width: 67px;
-  height: 48px;
+  width: auto;
+  height: 35px;
   top:2px;
   left: 5px;
   float: left;

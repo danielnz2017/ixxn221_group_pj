@@ -641,8 +641,8 @@ font-family: montserrat;
   .logo1x{
 
     position: relative;
-    width: 67px;
-    height: 48px;
+    width: auto;
+    height: 35px;
     top:2px;
     left: 5px;
     float: left;
